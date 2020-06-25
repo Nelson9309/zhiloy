@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: #242B33;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../img/first.png);
+  background-size: cover;
+  height: 840px;
+}
+
+.heeader__menu {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.header__logo {
+  margin-right: 40px;
+}
+
+.header__list {
+  width: 500px;
+  margin-left: 40px;
+}
+.header__list .active {
+  border-bottom: 1px solid #D4C17F;
+}
+
+.header__list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.header__list ul a {
+  color: white;
+}
+
+.header_h1 {
+  width: 556px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 170px;
+}
+.header_h1 h1 {
+  font-size: 48px;
+  color: #D4C17F;
+}
+.header_h1 img {
+  margin-top: 100px;
+}
+
+.icon__one {
+  position: absolute;
+  left: 50px;
+}
+
+.header__foot {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  font-size: 18px;
+  color: white;
+}
+.header__foot p:before {
+  content: url(../img/icon/placeholder.png);
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.header__foot a {
+  color: white;
+}
+.header__foot a:before {
+  content: url(../img/icon/phone-call.png);
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.icon__two {
+  position: absolute;
+  right: 10px;
+}
+
+.icons {
+  height: 507px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon__p {
+  text-align: center;
+  width: 193px;
+}
+.icon__p p {
+  margin-top: 53px;
+  font-size: 20px;
+  color: white;
+}
+
+.houses__h1 h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #D4C17F;
+}
+
+.houses__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 30px;
+}
+
+.houses__grid_item img {
+  width: 535px;
+  height: auto;
+}
+.houses__grid_item p {
+  color: white;
+  position: relative;
+  bottom: 80px;
+  left: 50px;
+  font-size: 27px;
+}
+
+.icon__three {
+  position: absolute;
+  left: 20px;
+}
+
+.contact__us {
+  background-image: url(../img/cta.png);
+  background-size: cover;
+}
+
+.contact__h1 h1 {
+  font-size: 36px;
+  color: #D4C17F;
+}
+
+.contact_describe {
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 560px;
+}
+
+.contact_p {
+  width: 535px;
+}
+.contact_p h1 {
+  margin-bottom: 50px;
+}
+
+form {
+  width: 540px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+form input {
+  font-weight: 100;
+  height: 50px;
+  text-align: center;
+  background-color: #BEBEBE;
+}
+form button {
+  font-weight: 600;
+  background-color: #D4C17F;
+}
+
+.icon__four {
+  position: absolute;
+  right: 20px;
+}
+
+.video__pic {
+  width: 719px;
+  margin: 0 auto;
+}
+
+.play_button {
+  position: relative;
+  bottom: 369px;
+  left: 310px;
+}
+.play_button img {
+  transition: all 0.1s linear;
+}
+.play_button img:hover {
+  transform: scale(1.2);
+}
+
+.maps {
+  width: 1100px;
+}
+
+.maps__h1 {
+  color: #D4C17F;
+  margin-bottom: 50px;
+}
+
+.icon__five {
+  position: absolute;
+  left: 50px;
+}
+
+.question__h1 {
+  margin: 50px 0 50px 0;
+  color: #D4C17F;
+}
+
+.form {
+  color: white;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.form input, .form button, .form p {
+  width: 255px;
+}
+.form p {
+  font-size: 13px;
+}
+.form input {
+  background-color: #BEBEBE;
+}
+.form button {
+  font-weight: 600;
+  background-color: #D4C17F;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 212px;
+  margin-top: 60px;
+}
+
+.footer__nav li {
+  margin: 9px 0 8px 0;
+  font-size: 14px;
+}
+.footer__nav a {
+  color: white;
+}
+
+.contacts {
+  color: white;
+}
+.contacts a {
+  color: #D4C17F;
+}
+.contacts p {
+  margin: 8px 0 8px 0;
+}
+
+.link__social {
+  margin-top: 15px;
+}
+.link__social a {
+  margin: 0px 10px 0 10px;
+}
