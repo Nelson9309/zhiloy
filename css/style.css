@@ -353,8 +353,9 @@ form button {
   form {
     margin-bottom: 50px;
     width: 320px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
   form input {
     font-weight: 100;
